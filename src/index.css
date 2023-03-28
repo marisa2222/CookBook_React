@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ 
+.form-control:valid~.invalid-feedback {
+  display: none;
+}
+.invalid{
+  border: 1px solid red;
+}
+.valid{
+  border: 1px solid green;
+}
+ 
